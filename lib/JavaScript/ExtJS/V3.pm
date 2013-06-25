@@ -55,6 +55,10 @@ Returns the ExtJS source directory as a L<Path::Class::Dir> object.
 
 =back
 
+=head1 AUTHOR
+
+Henry Van Styn <vanstyn@cpan.org>
+
 =head1 COPYRIGHT AND LICENSE
 
 This software is copyright (c) 2013 by IntelliTree Solutions llc. 
