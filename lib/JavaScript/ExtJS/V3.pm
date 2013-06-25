@@ -14,6 +14,8 @@ sub dir {
 
 1;
 
+__END__
+
 =pod
 
 =head1 NAME
@@ -47,9 +49,20 @@ Returns the ExtJS source directory as a L<Path::Class::Dir> object.
 
 =over 4
 
-=item * www.sencha.com
+=item * L<www.sencha.com|http://www.sencha.com>
+
+=item * L<ExtJS 3.4.0 API Docs|http://dev.sencha.com/deploy/ext-3.4.0/docs/>
 
 =back
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by IntelliTree Solutions llc. 
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+Ext JS is Copyright (c) 2006-2013, Sencha Inc. All rights reserved. See L<http://www.sencha.com/license|http://www.sencha.com/license>
 
 =cut
 
