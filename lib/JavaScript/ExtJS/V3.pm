@@ -1,10 +1,10 @@
 package JavaScript::ExtJS::V3;
 
 # ABSTRACT: Perl distribution for ExtJS 3.x sources
-our $VERSION = '3.4.1';
+our $VERSION = '3.4.11';
 
 use File::ShareDir qw(dist_dir);
-use Path::Class;
+require Path::Class;
 
 sub dir {
   my $dist = shift || __PACKAGE__;
@@ -24,11 +24,11 @@ JavaScript::ExtJS::V3 - Perl distribution for ExtJS 3.x sources
 
 =head1 VERSION
 
-ExtJS v3.4.1 (GPL)
+ExtJS v3.4.11 (GPL)
 
 =head1 SYNOPSIS
 
-  use JavaScript::ExtJS::V3 '3.4.1';
+  use JavaScript::ExtJS::V3 '3.4.11';
   
   my $dir = JavaScript::ExtJS::V3->dir;
   print "ExtJS sources are installed in: $dir\n";
