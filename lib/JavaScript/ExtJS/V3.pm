@@ -1,7 +1,7 @@
 package JavaScript::ExtJS::V3;
 
 # ABSTRACT: Perl distribution for ExtJS 3.x sources
-our $VERSION = '3.4.11';
+our $VERSION = '3.4.111';
 
 use File::ShareDir qw(dist_dir);
 require Path::Class;
@@ -20,7 +20,7 @@ __END__
 
 =head1 NAME
 
-JavaScript::ExtJS::V3 - Perl distribution for ExtJS 3.x sources
+JavaScript::ExtJS::V3 - DEPRECATED - Perl distribution for ExtJS 3.x sources
 
 =head1 VERSION
 
@@ -34,6 +34,8 @@ ExtJS v3.4.11 (GPL)
   print "ExtJS sources are installed in: $dir\n";
 
 =head1 DESCRIPTION
+
+DEPRECATED - use L<Alien::Web::ExtJS::V3> instead
 
 This module contains ExtJS 3.x sources packaged for distribution on CPAN. Upon installation,
 the source directory is installed into the system share dir (see L<File::ShareDir>) and made 
